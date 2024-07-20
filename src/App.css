@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: #192a56;
+  padding: 14px;
+  color: #fff;
+  width: 100%;
+}
+.form {
+  margin-top: 20px;
+}
+.stack {
+  gap: 10px;
+}
+.btn {
+  height: 50px;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.data_val {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: 12px;
+  /* background-color: rgb(169, 167, 167); */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
